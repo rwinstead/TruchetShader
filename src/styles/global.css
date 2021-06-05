@@ -1,0 +1,13 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    padding: 0px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+      margin: 0px;
+  }

@@ -14,9 +14,11 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@signal-noise/react-shader-canvas": "^0.0.3",
     "gatsby": "^3.0.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "glslCanvas": "^0.1.7",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
